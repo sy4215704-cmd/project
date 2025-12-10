@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/*HEADER*/
+
+header {
+    display: flex;
+    width: 100%;
+    background: rgb(202, 202, 119);
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    
+}
+
+ 
+
+.myntralogo{
+    height: 52px;
+    width: 53px;
+    border: 2px solid red;
+    border-radius: 30px;
+    display: flex;
+    margin-top: 10%;
+}
+.logo h1{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+.logo a{
+    text-decoration: none;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin-top: 2px;
+    font-weight: 800;
+    display: flex;
+     border-bottom: 3px solid rgb(202, 202, 119);
+    padding: 25px 0px;
+}
+.nav a:hover{
+    border-bottom: 3px solid red;
+
+}
+.nav{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+.nav a sup{
+    font-size: 10px;
+}
+#searchbox{
+    padding: 3px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+}
+.material-symbols-outlined{
+    background: #ffffff;
+    border: 2px solid red;
+    border-radius: 8px;
+}
+.search{
+    display: flex;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+.action{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+    
+}
+.action a{
+    text-decoration: none;
+     display: flex;
+    align-items: center;
+   flex-direction: column;
+   
+}
+.search svg{
+    border: 2px solid rgb(57, 188, 57);
+    margin-top: 1px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#bag_item_count{
+    background: red;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    height: 18px;
+    padding: 0 6px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    left: 13px;
+    top: -52px;
+    font-weight: 700;
+}
+
+
+ /*MAIN banner image*/
+
+ #banner{
+   margin-top: 100px;
+    width: 100%;
+    
+ }
+
+ /* ITEM Product*/
+ 
+
+ .items{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+ h2{
+    margin: 10px;
+    margin-top: 35px;
+    background: rgb(169, 169, 240);
+    display: flex;
+    justify-content: center;
+    padding: 4px 4px;
+ }
+ .item_container{
+    width: 170px;
+    margin: 7px;
+ }
+ #image{
+    width: 170px;
+    height: 230px;
+ }
+ .rating{
+    font-weight: 600;
+ }
+ .margin{
+    margin-top: 7px;
+ }
+ .company_name{
+    font-size: 18px;
+    margin-top: 3px;
+ }
+ .item_name{
+    font-weight: 700;
+ }
+ .price{
+    font-weight: 700;
+    padding-top: 1px;
+ }
+#original_price{
+    text-decoration:line-through;
+    color: red;
+ }
+ #add_to_bag{
+    width: 100%;
+    margin-top: 6px;
+    height: 30px;
+    font-size: 18px;
+    background: rgb(127, 209, 127);
+    border-radius: 6px;
+    cursor: pointer;
+ }

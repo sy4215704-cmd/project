@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bag_page{
+    display: grid;
+    
+}
+ 
+ 
+ .bag_items_container{
+    margin-top: 100px;
+    margin-left: 30px;
+    display:flex;
+    gap: 20px;
+ }
+ 
+ .bag_item{
+    display: grid;
+    
+   
+ }
+ .return_period{
+    font-size: large;
+    margin-top: 3px;
+ }
+ .return_days{
+    font-weight: 700;
+    color: rgb(33, 167, 33);
+ }
+ .delivery_details{
+      margin-top: 5px;
+      font-size: large;
+ }
+ .delivery_date{
+     color: rgb(16, 16, 198);
+ }
+ .remove_from_cart{
+    margin-top: 4px;
+    font-size: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+ }
+ .bag_summary{
+    margin-top: 100px;
+    margin-left: 600px;
+    height: 200px;
+    display: flex;  
+    position: fixed;
+ }
+ .item_detail{
+    min-width:70px;
+    font-size: large;
+ }
+ .place_order{
+    background: red;
+    color: rgb(242, 234, 234);
+    font-size: large;
+    border: 3px solid green;
+    border-radius: 9px;
+    cursor: pointer;
+ }
+ .bag_item_detail{
+     display: grid;
+     min-width: 230px;
+ }
+ .right{
+    font-size: large;
+    font-weight: 500;
+ }
+ hr{
+    height: 0px;
+    border: 1px solid rgba(50, 190, 50,0.9);
+    
+ }
+ .mrp{
+     margin-left: 88px;
+     font-weight: 600;
+     color: red;
+ }
+ .discount{
+  margin-left: 35px;
+font-weight: 600;
+color: rgb(96, 96, 232);
+ }
+ .convenience{
+  margin-left: 46px;
+  font-weight: 600;
+ }
+ .total_amount{
+  margin-left: 74px;
+  font-weight: 600;
+  color: green;
+ }
